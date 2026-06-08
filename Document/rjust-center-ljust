@@ -1,0 +1,10 @@
+- center
+Với i = 9, c = 'H'. Ta có :
+(c*3).center(i,"-") 
+output
+---HHH---
+Giải thích : c*3 = HHH. In ra 9 kí tự, trong đó HHH chiếm 3 kí tự, vậy còn 6 kí tự chia
+đều hai bên trái, phải bằng kí tự "-"
+
+rjust, ljust #right, left
+Giải thích : Ngược lại của nhau. rjust thì lùi trái, ljust lùi phải
